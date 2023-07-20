@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    <meta name="author" content="Jane Doe">
+    <meta name="description" content="Portafolio de desarrollo web de Jane Doe">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Titulo -->
+    <title> Sarai Ledesma | Estudiante en QFB | Recientemente aprendiendo sobre Desarrollo Web </title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="imagenes/icono.png">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="https://static.vecteezy.com/system/resources/previews/017/294/037/non_2x/international-day-of-women-and-girls-in-science-woman-chemist-scientist-in-a-bathrobe-conducts-experiments-illustration-vector.jpg" width="50" alt="Logo de la página web">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonios">Testimonios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-desarrollador rounded-circle" src="https://static.vecteezy.com/system/resources/previews/017/294/037/non_2x/international-day-of-women-and-girls-in-science-woman-chemist-scientist-in-a-bathrobe-conducts-experiments-illustration-vector.jpg" alt="Foto de Sarai Ledesma">
+        <h1>¡Hola!, soy Sarai Ledesma</h1>
+        <!--<h2>Desarrollo sitios web y escribo artículos sobre programación.</h2>-->
+
+        <!--Animación con JavaScript-->
+        <h2 class="text-primary mb-4" id="typewriter"></h2>
+      </div>
+      <div class="hero-inferior">
+        <img class="hero-inferior-imagen img-fluid" src="https://static.vecteezy.com/system/resources/thumbnails/019/153/003/small/3d-minimal-programming-icon-coding-screen-web-development-concept-laptop-with-a-coding-screen-and-a-coding-icon-3d-illustration-png.png" alt="Monitor, laptop y logos de HTML, CSS, JavaScript y React.">
+      </div>
+    </section>
+
+    <!-- Sobre mi -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo"> ¿Quién soy?, Conoce a Sarai Ledesma</h2>
+        <p class="seccion-texto"> Sección acerca de mi: Mi nombre es Belen Sarai Ledesma Ortiz, actualmente me encuentro estudiando la carrera de QFB en la Facultad de Química, me gusta constantemente adquirir aprendizajes y experiencias nuevas, ya sea en el área de la química, la docencia o en el área de programación misma en la que me encuentro recientemente aprendiendo y desarrollando algunos proyectos que les estaré compartiendo en este portafolio.</p>
+      </div>
+    </section>
+
+    <!-- Experiencia -->
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Desarrollo Web -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Desarrollo Web</p>
+            <p> A lo largo de las últimas semanas me encuentro desarrollando proyectos web aplicando los conocimientos adquiridos sobre HTML, CSS y algunas herramientas digitales</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">HTML</span>
+              <span class="badge text-bg-primary">CSS</span>
+              <span class="badge text-bg-primary">JavaScript</span>
+            </div>
+          </div>
+          <!--Próxima página web-->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Página Web</p>
+            <p>Proyecto en proceso. Próximamente compartiré una página web que me encuentro desarrollando con el objetivo de, en ella, compartir conocimientos de diversos temas de las ciencias químicas, biológicas y de la salud. Contenido principalmente dirigido a jóvenes entre 12-18 años de edad. </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Escribir</span>
+              <span class="badge text-bg-primary">Editar</span>
+              <span class="badge text-bg-primary">Blogs</span>
+            </div>
+          </div>
+          <!-- Estudiante -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Estudiante</p>
+            <p>Soy alumna de octavo semestre en QFB. En los últimos años he tomado diversos cursos y simposios, con el objetivo de ampliar mis aprendizajes en distintas disciplinas. Actualmente me encuentro terminando mi primer curso sobre programación gracias a una beca otorgada en el programa Tecnolochicas Pro, México.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Tecnolochicas PRO</span>
+              <span class="badge text-bg-primary">Desarrollo Web</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Mis proyectos actuales</h2>
+      <h3 class="seccion-descripcion">Recientemente he desarrollado algunos proyectos en los que he aplicado conocimientos en HTML y CSS, estos son:</h3>
+      <!-- Galeria de Proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Proyecto 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="https://cdn-icons-png.flaticon.com/512/5986/5986331.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 1: Mi primer página Web</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/Sarai-Ledesma" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://drive.google.com/drive/folders/1_ACjXvh75oUy-158OQMh254A8hvadGYE?usp=sharing" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="data:image/png;base64,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" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 2: Clonación de Google</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/Sarai-Ledesma" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://drive.google.com/drive/folders/1kH49LI2AO9rdPDXot91Y7PTZOfa2Zp0E?usp=sharing" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="https://t-position.com/wp-content/uploads/2010/01/Paginas-web.jpg" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 3: Página web en proceso. No disponible</p>
+                <div class="iconos-contenedor">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="https://github.com/Sarai-Ledesma" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Ver más proyectos (próximamente)
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="testimonios seccion-clara">
+      <h2 class="seccion-titulo">Testimonios</h2>
+      <h3 class="seccion-descripcion">Estos son algunos testimonios de mis compañeros de trabajo...</h3>
+      
+      <!-- Carrusel -->
+      <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="https://thumbs.dreamstime.com/b/hombre-de-caricatura-y-dos-mujeres-icono-dise%C3%B1o-colorido-pie-sobre-fondo-blanco-ilustraci%C3%B3n-vectorial-161732990.jpg" alt="Foto de Casandra D.">
+              <p class="testimonio-texto">La verdad es que siempre he considerado a Sarai como una líder por su iniciativa, y porque siempre intenta que las cosas sean perfectas o de la mejor manera para el equipo de trabajo. </p>
+              <div class="testimonio-info">
+                <p class="cliente">Casandra D.</p>
+                <p class="cargo">Estudiante en QFB, Facultad de Química, UNAM.</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="https://thumbs.dreamstime.com/b/hombre-de-caricatura-y-dos-mujeres-icono-dise%C3%B1o-colorido-pie-sobre-fondo-blanco-ilustraci%C3%B3n-vectorial-161732990.jpg" alt="Foto de Alexa R.">
+              <p class="testimonio-texto">Es una mujer super agradable, confiable y como compañera de trabajo es exigente con el fin de mantener un control para lograr sacar adelante el trabajo juntos, haces que absolutamente todo salga excelente!.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Alexa R.</p>
+                <p class="cargo">Estudiante en QFB, Facultad de Química, UNAM.</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="https://thumbs.dreamstime.com/b/hombre-de-caricatura-y-dos-mujeres-icono-dise%C3%B1o-colorido-pie-sobre-fondo-blanco-ilustraci%C3%B3n-vectorial-161732990.jpg" alt="Foto de Lucas E.">
+              <p class="testimonio-texto">Es una joven que siempre busca crecer como persona y como profesionista, le gusta trabajar en equipo, hace el máximo esfuerzo porque todo proyecto salga a la perfección, resolviendo problemas, proponiendo ideas y colaborando activamente.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Lucas E.</p>
+                <p class="cargo">Estudiante en IQ, Facultad de Química, UNAM.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              ¡Trabajemos juntos!
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+              Si buscas colaborar o quieres seguir aprendiendo conmigo, contáctame.
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="mailto:317079599@quimica.unam.mx">
+                <button type="button">  
+                  Contacto
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Pie de pagina (footer) -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+      <img class="footer-logo" src="https://static.vecteezy.com/system/resources/previews/017/294/037/non_2x/international-day-of-women-and-girls-in-science-woman-chemist-scientist-in-a-bathrobe-conducts-experiments-illustration-vector.jpg" alt="Logo del portafolio">
+      <p class="footer-texto text-center">Cada día es una oportunidad nueva de aprender y crecer como equipo. <br>Innovemos juntos.</p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="https://github.com/Sarai-Ledesma" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/belen-sarai-ledesma-ortiz/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="mailto:317079599@quimica.unam.mx" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">Sitio web creado por Belen Sarai Ledesma Ortiz (2023) &#169;</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+        <script src="main.js"></script>
+
+  </body>
+</html>
